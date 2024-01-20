@@ -11,7 +11,10 @@ Programe- 3 // - Use the if statement conditions to write a program to print the
 First we have to input a score and then we need to calculate the percentage of the score.Now using if and elif blocks perncentage is classified into the respective grades.Finally the corrospondent grade is printed. Grades are classidied as shown below 90%-100% is graded as A 80%-89% is graded as B 70%-79% is graded as C 60%-69% is graded as D Below 60%5 is garded as F.
 
 
+
+
 Assignment 2
+
 program-1// Write a program that takes two strings from the user: first_name, last_name. Pass these variables to fullname function that should return the (full name). o For example: ▪ First_name = “your first name”, last_name = “your last name” ▪ Full_name = “your full name” o Write function named “string_alternative” that returns every other char in the full_name string. Str = “Good evening” Output: Go vnn Note: You need to create a function named “string_alternative” for this program and call it from main function.
 This Python program prompts the user to input their first and last names. It then defines a function called fullname that takes these names as parameters, concatenates them to form a full name, and prints the result. The full name is stored in a global variable called full_name.After that, another function named string_alternative is defined, which takes the full_name as a parameter and prints an alternative string that consists of every second character from the full name.Finally, the program calls these functions with the user-inputted names and displays the full name and its alternative string.
 
