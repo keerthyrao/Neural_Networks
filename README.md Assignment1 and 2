@@ -26,3 +26,35 @@ Program-3// Write a program, which reads heights (inches.) customers into a list
 Nested Interactive loop.
 List comprehensions 
 In this code it takes input from the user as a space-separated list of inches.It converts each inch in the list to centimeters using the conversion factor of 2.54 (since 1 inch equals 2.54 centimeters).Here we are using map  function to convert each string element in the list to an integer.Finally after conversion it prints the resulting list of centimeter values.
+
+
+
+
+Assignment 3
+Here is the Recording link with the clear expalnation:
+
+Program-1// 
+Create a class Employee and then do the following
+• Create a data member to count the number of Employees
+• Create a constructor to initialize name, family, salary, department
+• Create a function to average salary
+• Create a Fulltime Employee class and it should inherit the properties of Employee class
+• Create the instances of Fulltime Employee class and Employee class and call their member functions
+
+->First, we need tp define a class named Employee that includes a data member to track the number of employees. The __init__ method initializes object attributes, with 'self' representing the instance of the class. 
+Then a function called average_salary is then created to calculate the average salary by summing up all employee salaries.
+Next, we introduce the FullTimeEmployee class as a subclass of Employee, using the super() function to access data from the parent class. In the main function, data for both FullTimeEmployee and Employee instances is appended to the femployee[] and employee[] lists, respectively. Finally, the average salary for both full-time employees and employees is printed.
+
+
+Program-2//
+Using NumPy create random vector of size 20 having only float in the range 1-20.
+Then reshape the array to 4 by 5
+Then replace the max in each row by 0 (axis=1)
+
+->First we need to create a random vector of size 20 with float values of range 1-20. Now we import numpy module as np, and we are using np.random.uniform() function to create array filled with random values. Then we used reshape() function to reshape the array as 4 by 5 matrix and also using max function inorder to find the maximum value in each row and repalcing it with 0. keepdims parameter of NumPy  enables us to control the dimensions of the output and axis =1 states the directions of rows along columns and finally printing the resultant vector.  
+
+
+
+
+
+
